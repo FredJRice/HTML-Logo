@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    margin: 300px;
+    padding: 0;
+}
+
+@font-face {
+    font-family: GothamPro;
+    src: url(GothamPro-Light.eot);
+    src: url(GothamPro-Light.woff2) format("woff2"),url(GothamPro-Light.woff) format("woff"),url(GothamPro-Light.ttf) format("truetype"),url(GothamPro-Light.svg#GothamPro-Light) format("svg"),url(GothamPro-Light.eot?#iefix) format("embedded-opentype");
+    font-weight: 100;
+    font-style: normal
+  }
+
+/* .htmlLogo {
+    border-left: 25px solid transparent;
+    border-right: px solid transparent;
+    border-bottom: 55px solid transparent;
+    border-top: 150px solid hsla(12, 77%, 52%);
+    width: 50px;
+    height: 100px;
+
+  } */
+
+  /* .htmlLogo {
+    position: relative;
+    width: 500px;
+    box-sizing: content-box;
+    border-width: 600px 50px 0;
+    border-style: solid;
+    border-color: red transparent;
+  }
+  .htmlLogo:before {
+    content: "";
+    position: absolute;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-top: 100px solid red;
+  } */
+
+.htmlLogo1{
+    height:400px;
+    width:200px;
+    transform: skew(10deg);
+    rotate: 180deg;
+    background-color:hsla(12, 77%, 52%);
+    clip-path: polygon(25% 20%, 90% 30%, 90% 100%, 0% 100%);
+}
+
+.htmlLogo2{
+    height:400px;
+    width:200px;
+    transform: skew(-10deg);
+    translate:calc(-45%);
+    rotate: 180deg;
+    background-color:hsla(12, 77%, 52%);
+    clip-path: polygon(0% 30%, 60% 20%, 92% 100%, 0% 100%);
+    
+}
+
+
+
